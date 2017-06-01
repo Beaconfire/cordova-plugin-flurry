@@ -11,7 +11,7 @@
 
 - (void)pluginInitialize
 {
-    NSString * flurryKey = @"__FLURRY_KEY__";
+    NSString * flurryKey = @"98BYN6HBRW9JD485YN77";
     
     if( flurryKey!=nil && [flurryKey isEqualToString:@""]==NO && [flurryKey rangeOfString:@"FLURRY_KEY"].location == NSNotFound ){
         NSLog(@"Starting Flurry Session: %@", flurryKey);
